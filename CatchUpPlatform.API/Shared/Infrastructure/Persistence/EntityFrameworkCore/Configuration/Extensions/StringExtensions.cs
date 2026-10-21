@@ -1,10 +1,13 @@
-namespace CatchUpPlatform.API.shared.Infrastructure.Persistance.EntityFrameworkCore.Configuration.Extensions;
+using Humanizer;
+
+namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
 
 public static class StringExtensions
 {
-    public static string ToSnakeCase(this string text) 
+    public static string ToSnakeCase(this string text)
     {
         return new string(Convert(text.GetEnumerator()).ToArray());
+
         static IEnumerable<char> Convert(CharEnumerator e)
         {
             if (!e.MoveNext())
