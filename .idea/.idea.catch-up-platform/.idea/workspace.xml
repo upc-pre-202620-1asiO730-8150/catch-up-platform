@@ -14,7 +14,14 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d3f23a-90ee-425d-8cc4-da8a01f4e40a" name="Changes" comment="" />
+    <list default="true" id="47d3f23a-90ee-425d-8cc4-da8a01f4e40a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CatchUpPlatform.API/Shared/Infrastructure/Interfaces/Asp/Configuration/Extensions/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatchUpPlatform.API/Shared/Infrastructure/Interfaces/Asp/Configuration/KebabCaseRouteNamingConvention.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.catch-up-platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.catch-up-platform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatchUpPlatform.API/CatchUpPlatform.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatchUpPlatform.API/CatchUpPlatform.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatchUpPlatform.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CatchUpPlatform.API/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,23 +35,30 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Diego201101"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Diego201101&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/upc-pre-202620-1asiO730-8150/catch-up-platform.git",
-    "accountId": "677ece75-7e89-4e01-9e60-f4bf31546e4c"
+    "accountId": "505eefce-29dd-435b-999e-f4dc506904c0"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/Shared/Infrastructure/Interfaces/Asp/Configuration/Extensions/KebabCaseRouteNamingConvention.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/Shared/Infrastructure/Interfaces/Asp/Configuration/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Configuration/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Configuration/Extensions/ModelBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Configuration/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Interceptors/AuditableEntityinterceptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/Infrastructure/Persistance/EntityFrameworkCore/Repositories/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/domain/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/domain/Repositories/IUnitForWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CatchUpPlatform.API/shared/domain/model/IAuditable.Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/global.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -53,97 +67,97 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000121263" />
-      <entry key="MS500" value="1.0091289489676154" />
-      <entry key="S2" value="1.7853878529755032" />
-      <entry key="S5" value="3.942692419648358" />
-      <entry key="S10" value="6.3113577650438355" />
-      <entry key="S30" value="10.245276773101688" />
-      <entry key="S60" value="12.994673607476726" />
-      <entry key="M2" value="15.894592427177452" />
-      <entry key="M5" value="24.299030621885592" />
-      <entry key="M10" value="44.29143482386454" />
-      <entry key="M15" value="63.837184040012886" />
-      <entry key="M30" value="104.57948351402756" />
-      <entry key="H1" value="141.85455406087462" />
-      <entry key="H2" value="167.90613974086946" />
-      <entry key="H4" value="183.4464847914956" />
-      <entry key="D1" value="197.92224294149034" />
-      <entry key="W1" value="200.55641994364524" />
+      <entry key="MS100" value="1.0221759658690277" />
+      <entry key="MS500" value="1.6176609552475738" />
+      <entry key="S2" value="2.44996697225519" />
+      <entry key="S5" value="2.7544143683411093" />
+      <entry key="S10" value="2.872444049817317" />
+      <entry key="S30" value="2.9569767562913256" />
+      <entry key="S60" value="3.007102784731643" />
+      <entry key="M2" value="3.267852528380527" />
+      <entry key="M5" value="5.122159082431871" />
+      <entry key="M10" value="13.266979123629742" />
+      <entry key="M15" value="26.098395537915877" />
+      <entry key="M30" value="66.16806350645447" />
+      <entry key="H1" value="116.28074624852307" />
+      <entry key="H2" value="157.9504110675426" />
+      <entry key="H4" value="185.1958178252598" />
+      <entry key="D1" value="212.09671169881724" />
+      <entry key="W1" value="217.14527478763864" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.156753936298353E-272" />
-      <entry key="S2" value="1.3330596591937266E-68" />
-      <entry key="S5" value="7.249234300469556E-28" />
-      <entry key="S10" value="3.0740309203972096E-14" />
-      <entry key="S30" value="4.591686702345853E-5" />
-      <entry key="S60" value="0.009630841507685747" />
-      <entry key="M2" value="0.1575223079157255" />
-      <entry key="M5" value="1.3269357150586905" />
-      <entry key="M10" value="3.9018752713913343" />
-      <entry key="M15" value="6.2308912333809525" />
-      <entry key="M30" value="11.059078785856853" />
-      <entry key="H1" value="15.585330488020277" />
-      <entry key="H2" value="18.818497028327112" />
-      <entry key="H4" value="20.772304834803926" />
-      <entry key="D1" value="22.60788201261676" />
-      <entry key="W1" value="22.943447274663665" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.8462691131455306E-83" />
+      <entry key="S5" value="1.1746556205157633E-33" />
+      <entry key="S10" value="4.8126423829349295E-17" />
+      <entry key="S30" value="5.764824843158317E-6" />
+      <entry key="S60" value="0.0033948553455818782" />
+      <entry key="M2" value="0.08245686412013056" />
+      <entry key="M5" value="0.6036667327168338" />
+      <entry key="M10" value="1.7398108424579157" />
+      <entry key="M15" value="3.2503640629498602" />
+      <entry key="M30" value="7.867927817717965" />
+      <entry key="H1" value="13.739205891590915" />
+      <entry key="H2" value="18.712613309177637" />
+      <entry key="H4" value="22.002979991965123" />
+      <entry key="D1" value="25.27805678209669" />
+      <entry key="W1" value="25.895401855767986" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980556505" />
-      <entry key="MS500" value="0.9994087280388538" />
-      <entry key="S2" value="1.7728761971773532" />
-      <entry key="S5" value="3.865516568491465" />
-      <entry key="S10" value="6.191664766719861" />
-      <entry key="S30" value="10.153939796074042" />
-      <entry key="S60" value="12.946998285198806" />
-      <entry key="M2" value="16.017801486086675" />
-      <entry key="M5" value="25.598898075976617" />
-      <entry key="M10" value="48.16067829065418" />
-      <entry key="M15" value="70.03365488259169" />
-      <entry key="M30" value="115.60810080817829" />
-      <entry key="H1" value="157.41859016173697" />
-      <entry key="H2" value="186.71187239693919" />
-      <entry key="H4" value="204.21177641471314" />
-      <entry key="D1" value="220.5288581721639" />
-      <entry key="W1" value="223.4996837049031" />
+      <entry key="MS100" value="0.9282116095146221" />
+      <entry key="MS500" value="1.590557667378355" />
+      <entry key="S2" value="2.44075656573689" />
+      <entry key="S5" value="2.7503888665335294" />
+      <entry key="S10" value="2.870365771304631" />
+      <entry key="S30" value="2.9562604136860595" />
+      <entry key="S60" value="3.009688180290194" />
+      <entry key="M2" value="3.3470235638332646" />
+      <entry key="M5" value="5.717736573215245" />
+      <entry key="M10" value="14.994662883505104" />
+      <entry key="M15" value="29.332929679736925" />
+      <entry key="M30" value="74.01581033580881" />
+      <entry key="H1" value="130.00205625213692" />
+      <entry key="H2" value="176.65080346194748" />
+      <entry key="H4" value="207.19161325665397" />
+      <entry key="D1" value="237.37339391969647" />
+      <entry key="W1" value="243.04047552345585" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Kv6eancRy7S8392czR6a6dUWwq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/shared",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CatchUpPlatform.API: http">
     <configuration name="CatchUpPlatform.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CatchUpPlatform.API/CatchUpPlatform.API.csproj" />
